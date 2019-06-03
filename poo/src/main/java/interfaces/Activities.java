@@ -1,9 +1,8 @@
 package interfaces;
 
-import entity.HighSchoolCourses;
-import entity.Student;
+import entity.Course;
 
 public interface Activities {
 
-    public Student doHomework(HighSchoolCourses highSchoolCourses);
+  void doHomework(Course course);
 }
